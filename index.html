@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<head>
+	  <title>Tic Tac Toe</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="ttt.css">
+		<script src="ttt.js" defer></script>
+	</head>
+	<body>
+        <p id="winner"></p>
+		<div id="game-board">
+            <div id="g00" class="move"></div>
+			<div id="g10" class="move"></div>
+			<div id="g20" class="move"></div>
+			<div id="g01" class="move"></div>
+			<div id="g11" class="move"></div>
+			<div id="g21" class="move"></div>
+			<div id="g02" class="move"></div>
+			<div id="g12" class="move"></div>
+			<div id="g22" class="move"></div>
+		</div>
+        <button onclick="resetGame()">Restart</button>
+        <button id="player-swap" onclick="swapPlayer()">Player: X</button>
+	</body>
+</html>
+
