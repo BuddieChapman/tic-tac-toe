@@ -52,7 +52,7 @@ function resetGame(){
 function updateWinner(){
     var winner = getWinner();
     if(winner != ''){
-        document.getElementById('winner').innerHTML = winner + ' WINS';
+        document.getElementById('winner').innerHTML = winner + ' WINS!';
         isGameOver = true;
     }
 }
